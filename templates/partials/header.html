@@ -14,7 +14,7 @@
     {# RSS #}
     <link rel="alternate" type="application/atom+xml" title="{{ config.title }}" href="{{ get_url(path="atom.xml",
         trailing_slash=false) }}">
-    
+
     {# CSS #}
     {# Load subset of glyphs for header. Avoids flashing issue in Firefox #}
     {% if config.extra.custom_subset == true %}
@@ -50,7 +50,7 @@
 
     {% set current_url = current_url | default(value="/") %}
     <meta property="og:url" content="{{ current_url }}">
-    
+
     <meta property="og:description" content="{{ config.description }}">
     <meta property="og:site_name" content="{{ config.title }}">
 
