@@ -22,6 +22,18 @@
     font-display: swap;
 }
 
+@font-face {
+  font-family: 'Ubuntu';
+  src: local('Ubuntu'),
+    url('fonts/Ubuntu/Ubuntu-Regular.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'Ubuntu Mono';
+  src: local('Ubuntu'),
+    url('fonts/Ubuntu Mono/UbuntuMono-Regular.ttf') format("truetype");
+}
+
 @import 'parts/_archive.scss';
 @import 'parts/_cards.scss';
 @import 'parts/_code.scss';
@@ -43,9 +55,11 @@
     --medium-layout-width: 400px;
     --small-layout-width: 200px;
 
-    --sans-serif-font: 'Inter', Helvetica, Arial, sans-serif;
-    --serif-font: 'Source Serif', 'Georgia', serif;
-    --code-font: 'Cascadia Code';
+    // --sans-serif-font: 'Inter', Helvetica, Arial, sans-serif;
+    --sans-serif-font: 'Ubuntu';
+    // --serif-font: 'Source Serif', 'Georgia', serif;
+    --serif-font:  'Ubuntu';
+    --code-font: 'Ubuntu Mono';
 
     font-family: var(--sans-serif-font);
     line-height: 190%;
