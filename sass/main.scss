@@ -130,7 +130,7 @@ body {
 }
 
 article {
-    max-width: calc(var(--max-layout-width) - 1rem);
+    max-width: var(--max-layout-width);
     margin: 0 auto;
 
     p,
