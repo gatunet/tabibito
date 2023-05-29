@@ -3,9 +3,6 @@ title = "Learning Assembly"
 date = "2021-04-04"
 +++
 
-Assembly
-========
-
 So, when doing the [Exploit-Education Phoenix](https://exploit.education/phoenix/) challenge, wich is the "spiritual successor" to the Protostar challenges that was recommended by [Live Overflow](https://liveoverflow.com/start-hacking/) I felt like learning some assembly.
 
 ### Some things to know :
