@@ -5,6 +5,9 @@ date = "2021-04-04"
 
 Just a list of topics I will be writting posts on.
 
+### Self Hosting related
+- PfSense setup
+
 ### Technologies
 - GRPC **(ongoing)**
 
