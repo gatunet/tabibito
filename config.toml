@@ -42,7 +42,7 @@ menu = [
     { name = "blog", url = "$BASE_URL/blog" },
     { name = "archive", url = "$BASE_URL/archive" },
     # { name = "tags", url = "$BASE_URL/tags" },
-    # { name = "projects", url = "$BASE_URL/projects" },
+    { name = "projects", url = "$BASE_URL/projects" },
 ]
 
 # The icons available can be found in "social_icons" in the "static" folder
