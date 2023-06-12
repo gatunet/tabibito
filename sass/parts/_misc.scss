@@ -156,7 +156,7 @@ table {
 }
 
 table thead tr {
-    background-color: var(--primary-color);
+    background-color: var(--meta-color);
     color: var(--hover-color);
     text-align: left;
 }
@@ -164,7 +164,6 @@ table thead tr {
 table th,
 table td {
     padding: 0.5em 0.7em;
-    font-family: 'Source Serif Pro', serif;
 }
 
 table tbody tr:nth-child(even) {
