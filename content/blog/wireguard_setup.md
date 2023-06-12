@@ -3,7 +3,7 @@ title = "Wire GUARD(?) simple setup cheat sheet"
 date = "2023-06-11"
 +++
 
-Just a simple cheat sheet for a quick(**only CLI**) wireguard setup
+Just a simple cheat sheet for a quick wireguard setup.
 
 ### Generating Keys
 
@@ -75,3 +75,6 @@ On the client(node) there's a [bunch of GUIs](https://www.wireguard.com/install/
 
 When I find time, I'll figure it out how to add images here properly (￣▽￣*)ゞ
 
+### References
+- [Github - pirate/wireguard-docs](https://github.com/pirate/wireguard-docs)
+- [Wireguard - Quick Start](https://www.wireguard.com/quickstart/)
