@@ -17,6 +17,7 @@ Just a list of topics I will be writting posts on.
 ### Self Hosting services
 - Simple Login
 - Personal Git **(ongoing)**
+- HomeBridge
 
 ### A LOT of design patterns:
 
