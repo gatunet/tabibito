@@ -35,6 +35,8 @@ ListenPort = 51820 *your port, this is the default, but you can change it to wha
 PostUp =  iptables -t nat -A POSTROUTING -s 10.8.0.0/24 -o eth0 -j MASQUERADE; iptables -A INPUT -p udp -m udp --dport 51820 -j ACCEPT; iptables -A FORWARD -i wg0 -j ACCEPT; iptables -A FORWARD -o wg0 -j ACCEPT;
 # This PostUp line is (as I understand, and I don't know a lot about iptables) so you can route the traffic that comes from the clients, so they can access the internet through the server (like a "normal"/comercial vpn)
 
+# Also, if you're going to use it, remember to change the network interface and the ip range if needed
+
 [Peer]
 PublicKey = *client public key*
 AllowedIPs = 10.8.0.3/32 *clients ip*
